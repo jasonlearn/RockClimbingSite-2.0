@@ -1,0 +1,133 @@
+
+body{
+	background-color: #000000;
+	font-family: verdana, arial, sans-serif;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 80%;
+	min-width: 960px; max-width: 1200px;
+	background-color: #b3c7e6;
+	color: #000066;
+}
+header{
+	background-color: #000000;
+	color: #000000;
+	font-size: 150%;
+	padding: 300px 10px 10px 155px;
+	background-repeat: no-repeat;
+	background-position : center;
+	background-image: url(images/climbing.jpg);
+}
+h1{
+	margin-bottom: 20px;
+	font-family: arial, sans-serif;
+}
+h2{
+	color: #00005d;
+	font-family: arial, sans-serif;
+}
+h3{
+	font-size : 150%;
+	text-align : left;
+	color: #00005d;
+	background-color : #EB7425;
+	padding : 10px;
+	font-family: arial, sans-serif;
+}
+nav{
+	float: left;
+	width: 150px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+main{
+	background-color: #b3c7e6;
+	color: #000000;
+	padding: 10px 20px;
+	display: block;
+	overflow: auto;
+}
+footer{
+	font-size: 70%;
+	text-align: center;
+	padding: 10px;
+	background-color: 869dc7;
+	clear: both;
+}
+#floatright{
+	float: right;
+	margin: 10px;
+}
+#floatleft{
+	float : left;
+	}
+nav ul{
+	list-style: none; 
+	margin: 0; 
+	padding: 0;
+}
+nav a{
+	text-decoration: none;
+	padding:15px;
+	display: block;
+	background-color: #EB7425;
+	border-bottom: 1px solid black;
+}
+nav a: link{ color: #FFFFFF;}
+nav a: visited{ color: #25EBE7;}
+nav a:hover{
+	color: #869dc7;
+	background-color: #25EBE7;
+}
+#menu {
+	list-style-type : none;
+	padding : 2px;
+	}
+ul#menu li{
+	margin : 10px;
+	display : inline;
+}
+figcaption{
+	margin-bottom : 20px;
+	}
+#price
+	{
+	color : #3300CC;
+	font-weight : bold;
+	}
+ul.menu li{
+	list-style-type : none;
+	clear : both;
+	font-weight : bold;
+	}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th{
+	font-weight : bold;
+}
+blockquote{
+	color : #000000;
+}
+.sitemap{
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+	text-align: left;
+	margin-top : 30px;
+}
+.sitemap ul li{
+	list-style-type: none;
+}
+.sitemap p {
+	margin-left: 40px;
+}
+#buttons {
+	margin-bottom : 0px;
+	font-size : 15px;
+}
